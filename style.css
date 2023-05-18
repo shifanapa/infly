@@ -1,0 +1,289 @@
+
+*{
+    padding:0%;
+    margin:0%
+}
+
+header{
+    background-color:blue;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0%,5%;
+    gap: 4%;
+    
+}
+.text-ac{
+    text-align: center;
+}
+.cart{
+    margin-top: 6px;
+    margin-right: 10%;
+
+}
+.pl{
+    padding-left: 5%;
+}
+.liststyle{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.cl{
+    color: white;
+}
+#splight{
+    background-color: blue;
+    padding-top: 10rem;
+    padding-left: 5%;
+}
+.dflex{
+    display: flex;
+}
+.jc{
+    justify-content: space-between;
+}
+.intro{
+    color: white;
+    margin-top: 5%;
+}
+.buy{
+    background-color: rgb(243, 243, 56);
+    width: 10rem;
+    height: 2rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    color: black;
+    text-align: center;
+
+}
+.font-si{
+    font-size:3rem;
+}
+.font-b{
+    font-size: 2rem;
+}
+.buy{
+    margin-top: 16px;
+}
+.ex{
+    margin-top: 16px;
+}
+.first{
+
+    position: absolute;
+    width: 84%;
+    height: 34%;
+    left: 289px;
+    top: 245px;
+    
+}
+.second{
+    position: relative;
+    width: 84%;
+    height: 109%;
+    left: -30%;
+    top: -6%;
+}
+.dcs{
+    display: flex;
+}
+.mob{
+    margin-top: 12%;
+}
+.scrn{
+    margin-top:20%;
+    margin-left: 12%;
+}
+.rdio{
+    margin-top: 25%;
+    margin-left: 12%;
+}
+.ex_img{
+    margin-left: 100px;
+    width: 334px;
+}
+.imgs{
+    margin-top: 100px;
+    margin-left: 18px;
+}
+.img_hd{
+    text-align: center;
+    margin-top: 103px;
+}
+.imgs p{
+    margin-left: 98px;
+}
+.buttonp{
+    border: 2px solid blue;
+    padding: 9px 199px;
+    border-radius: 22px;
+    background-color: white;
+    font-size: 19px;
+}
+.margp{
+    margin-top: 100px;
+}
+.sec2hd{
+    text-align: center;
+    margin-top: 89px;
+}
+.cust1{
+     text-align: center;
+     background-color: rgb(229, 238, 238);
+     justify-content: center;
+     padding-top: 21px;
+     width: 447px;
+     margin-left: 109px;
+     margin-top: 65px;
+     border-radius: 13px;
+    
+}
+.vrtcl{
+    writing-mode: vertical-lr;
+    background-color: #3c3c7e;
+    color: white;
+    border-radius: 4px;
+    margin-top: -75px;
+}
+.exvrtcl{
+    position: absolute;
+    margin-top: 146px;
+}
+.p1{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 21px;
+}
+.p2{
+    padding-top: 15px; 
+    padding-left: 20px;
+    padding-right: 21px;
+}
+.p3{
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 21px;
+}
+.shop-n{
+    background-color: #3c3c7e ;
+    border-radius: 4px;
+    width: 352px;
+    height: 32px; 
+    padding-top: 9px;  
+}
+.shop-n:hover{
+    background-color: #e5e5ee;
+}
+.shop-n a:hover{
+    color: black;
+}
+.abc{
+    margin-left: 39%;
+}
+.dead{
+    background-color: #3c3c7e;
+    width: 975px;
+    color: white;
+    padding-top: 59px;
+    padding-left: 59px;
+    padding-right: 59px;
+    padding-bottom: 59px;
+    border-radius: 13px;
+}
+.abtus{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.loop{
+    display: flex;
+    justify-content: center;
+    margin-top: 106px;
+    text-align: center;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 75px;
+}
+.length{
+    border-radius: 18px;
+    width: 294px;
+    height: 36px;
+}
+.subc{
+    border-radius: 18px;
+    width: 173px;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3c3c7e;
+    color: white;
+}
+.terms{
+   margin-top: 50px;
+   line-height: 3rem;
+}
+.footicon{
+    margin-top: 71px;
+    line-height: 3rem;
+}
+.footicon i{
+    margin-right: 10px;
+}
+#mobile{
+    display: none;
+}
+@media only screen and (max-width: 800px){
+    #mobile{
+        display: block;
+    }
+    .first{
+        display: none;
+    }
+    .dcs{
+        display: none;
+    }
+    .imgs{
+        display: block;
+    }
+    .liststyle{
+        display: none;
+    }
+    .hacf{
+        display: none;
+    }
+    .foot{
+        display: grid;
+    }
+    .custmrs{
+        display: grid;
+    }
+    #splight{
+        display: grid;
+    }
+    .mnone{
+        display: none;
+    }
+    .second{
+        display: none;
+    }
+    
+}
+
+
+
+    
+
+
+    
+
+
