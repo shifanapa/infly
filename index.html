@@ -14,9 +14,12 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <script src="https://kit.fontawesome.com/7ce8f4d24b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <header>
+    <header class="container1">
         <img class="pl" src="./images/02 1.png" alt="" width="5%">
         <nav>
             <ul class="liststyle">
@@ -39,7 +42,7 @@
         </div>
     </header>
     <section id="splight">
-        <div class="dflex jc">
+        <div class="dflex">
            <div class="intro">
               <h1 class="font-b">Become an <br><span class="font-si">INFLUENCER</span></h1>
               <p class="ex">Exclusive reels/shorts bundle!</p>
@@ -47,7 +50,8 @@
            </div>
            <div class="w.image">
               <img class="first" src="./whitebg.png" alt="">
-              
+           </div>
+           <div> 
               <img class="second" src="./images/spotIllustration_01 1.png" alt="">
           </div>
         </div>
@@ -63,7 +67,7 @@
             </div>
         </div>
      </section>
-     <Section>
+     <Section id="imgedc">
         <div class="img_hd">
             <h2>Explore Digital Collection</h2>
         </div>
@@ -96,9 +100,9 @@
         <div class="exvrtcl" >
             <p class="vrtcl">Share Your Expirience</p>
         </div>
-        <div class="dflex custmrs" style="gap: 30px;">
+        <div class="dflex custmrs owl-carousel" style="gap: 30px;">
             <div class="cust1">
-               <div>
+               <div class="dflex star">
                 <img src="./images/Vector.png" alt="">
                 <img src="./images/Vector.png" alt="">
                 <img src="./images/Vector.png" alt="">
@@ -108,7 +112,7 @@
                 <p class="p1">"As someone who is not very design-savvy, I was hesitant to try creating my own graphics. But with the help of these templates, I was able to create professional-looking designs in minutes. Thank you!" <br>- John R</p>
             </div>
             <div class="cust1">
-               <div>
+               <div class="dflex star">
                     <img src="./images/Vector.png" alt="">
                     <img src="./images/Vector.png" alt="">
                     <img src="./images/Vector.png" alt="">
@@ -118,7 +122,7 @@
                 <p class="p2">"I've been using these templates for a few months now, and I can't imagine going back to creating everything from scratch. The quality is top-notch, and the variety of options means I can always find something that fits my needs." <br>- David T</p>
             </div> 
             <div class="cust1">
-                <div>
+                <div class="dflex star">
                     <img src="./images/Vector.png" alt="">
                     <img src="./images/Vector.png" alt="">
                     <img src="./images/Vector.png" alt="">
@@ -128,7 +132,7 @@
                 <p class="p3">"I love how easy it is to customize these templates to fit my brand's aesthetic. The illustrations and graphics are beautiful, and the Photoshop templates are a dream to work with. I highly recommend to anyone looking to up their design game!" <br>- Amanda K</p>
             </div>
         </div>
-        <div class="text-ac margp abc">
+        <div class="text-ac margp abc dflex">
             <h4 class="shop-n"><a href="#">Shop now</a></h4>
         </div>
     </section>
@@ -179,6 +183,27 @@
 
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="./owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:true,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+    </script>
               
 
     

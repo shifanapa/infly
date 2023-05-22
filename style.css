@@ -3,7 +3,14 @@
     padding:0%;
     margin:0%
 }
+.container{
+    padding: 0%,5%;
 
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
 header{
     background-color:blue;
     justify-content: space-between;
@@ -19,6 +26,9 @@ header{
 .cart{
     margin-top: 6px;
     margin-right: 10%;
+}
+.star{
+    justify-content: center;
 
 }
 .pl{
@@ -39,18 +49,20 @@ a{
 }
 #splight{
     background-color: blue;
-    padding-top: 10rem;
-    padding-left: 5%;
+    padding: 0%,5% !important;
+    margin-bottom: 20px;
 }
 .dflex{
     display: flex;
+
 }
 .jc{
     justify-content: space-between;
 }
 .intro{
     color: white;
-    margin-top: 5%;
+    margin-top: 12%;
+    margin-left: 2rem;
 }
 .buy{
     background-color: rgb(243, 243, 56);
@@ -77,24 +89,25 @@ a{
 .first{
 
     position: absolute;
-    width: 84%;
-    height: 34%;
-    left: 289px;
-    top: 245px;
+    width: 67%;
+    height: 36%;
+    left: 600px;
+    top: 243px;
     
 }
 .second{
     position: relative;
     width: 84%;
     height: 109%;
-    left: -30%;
-    top: -6%;
+    left: 166%;
+    top: 22%;
 }
 .dcs{
     display: flex;
 }
 .mob{
     margin-top: 12%;
+    margin-left: 3rem;
 }
 .scrn{
     margin-top:20%;
@@ -104,30 +117,29 @@ a{
     margin-top: 25%;
     margin-left: 12%;
 }
-.ex_img{
-    margin-left: 100px;
-    width: 334px;
-}
+
 .imgs{
     margin-top: 100px;
     margin-left: 18px;
+    justify-content: center;
+    gap: 3rem;
 }
 .img_hd{
     text-align: center;
     margin-top: 103px;
 }
-.imgs p{
-    margin-left: 98px;
-}
+
 .buttonp{
     border: 2px solid blue;
-    padding: 9px 199px;
-    border-radius: 22px;
+    padding: 4px 137px;
+    border-radius: 71px;
     background-color: white;
     font-size: 19px;
 }
 .margp{
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
 .sec2hd{
     text-align: center;
@@ -138,12 +150,17 @@ a{
      background-color: rgb(229, 238, 238);
      justify-content: center;
      padding-top: 21px;
-     width: 447px;
-     margin-left: 109px;
      margin-top: 65px;
      border-radius: 13px;
-    
 }
+.ex_p{
+    margin-top: 11px;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 3% !important;
+  }
 .vrtcl{
     writing-mode: vertical-lr;
     background-color: #3c3c7e;
@@ -154,6 +171,7 @@ a{
 .exvrtcl{
     position: absolute;
     margin-top: 146px;
+    z-index: 2;
 }
 .p1{
     padding-top: 15px;
@@ -184,7 +202,8 @@ a{
     color: black;
 }
 .abc{
-    margin-left: 39%;
+    text-align: center;
+    justify-content: center;
 }
 .dead{
     background-color: #3c3c7e;
@@ -245,6 +264,7 @@ a{
 @media only screen and (max-width: 800px){
     #mobile{
         display: block;
+        margin-right:100px;
     }
     .first{
         display: none;
@@ -253,7 +273,9 @@ a{
         display: none;
     }
     .imgs{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .liststyle{
         display: none;
@@ -276,7 +298,37 @@ a{
     .second{
         display: none;
     }
-    
+    #splight{
+        width:100%;
+    }
+    header{
+        width: 100%;
+    }
+    .cart{
+        display: none;
+    }
+    .img_hd{
+        justify-content: center;
+        text-align: center;
+    }
+    .foot{
+        width: 100%;
+    }
+    .abtus{
+        width: 100%;
+    }
+    .exvrtcl{
+        display: none;
+    }
+    #splight .dflex{
+        justify-content: center;
+        margin-bottom: 20px;
+
+    }
+    .shop-n{
+       
+    }
+
 }
 
 
